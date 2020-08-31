@@ -1,6 +1,3 @@
-## Reset base plot global parameters
-dev.off()
-
 ## Read and tidy the data
 hpc = read.delim("household_power_consumption.txt", sep=";")
 hpc$Date = as.Date(hpc$Date, "%d/%m/%Y")
